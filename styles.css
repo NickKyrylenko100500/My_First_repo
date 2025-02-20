@@ -1,0 +1,53 @@
+/* Основні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Шапка */
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+}
+
+/* Меню навігації */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Основний контент */
+.main-content {
+    padding: 20px;
+}
+
+.main-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Футер */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
